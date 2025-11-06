@@ -7,4 +7,10 @@ public class EmpleadoTiempoCompleto extends Empleado{
     protected double calcularSalario() {
        return this.getSalarioBase()*1.10;
     }
+
+    @Override
+    public void mostrarInformacion() {
+        super.mostrarInformacion();
+
+    }
 }

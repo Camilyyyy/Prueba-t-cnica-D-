@@ -13,4 +13,11 @@ public class EmpleadoPorHoras extends Empleado{
     protected double calcularSalario() {
         return this.horasTrabajadas*pagoPorHoras;
     }
+
+    @Override
+    public void mostrarInformacion() {
+        super.mostrarInformacion();
+        System.out.printf("HOras trabajadas %s\n", this.horasTrabajadas);
+        System.out.printf("Pago por horas %s\n", this.pagoPorHoras);
+    }
 }
