@@ -50,7 +50,7 @@ public class Empleado {
         System.out.printf("id %d\n", this.id);
     }
 
-    protected float calcularSalario()
+    protected double calcularSalario()
     {
         return 0;
     }
